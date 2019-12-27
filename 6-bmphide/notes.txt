@@ -1,0 +1,38 @@
+ver4=true
+ptr="clrjit.dll"
+ptr="getJit"
+getJit-->getJit()
+
+val=intptr-->compileMethod Address <<--- originalDelegate
+intptr2=new() or malloc()
+
+------->>IncreamentStack XXXcompileMethodXXX
+
+
+h:0x6000015
+	23 or 0x17 <--> 20 or 0x14 f <--> g
+	62 or 0x3e <--> 20 or 0x14 f <--> g
+
+g:0x6000014
+	6  or 0x6  <--> ED B8 83 20  <--> 12 6B 6f c5  
+	18 or 0x12 <--> 63 7c 77 7B  <--> 0c 82 c9 7d
+	
+	
+2083B8ED --> ED B8 83 20
+
+ptr-->b XXa 
+ptr2-->b 
+
+ptr-->d XXc 
+ptr2-->d
+
+
+a <--> b
+c <--> d
+
+1010 & 1100 = 1000
+
+1000 & 1100= 
+
+
+				
